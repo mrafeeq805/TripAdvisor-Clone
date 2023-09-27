@@ -1,0 +1,608 @@
+@font-face {
+    font-family:'TripSans-Regular';
+    src: url('TripSans-Regular.ttf');
+}
+body{
+    font-family:'TripSans-Regular';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    margin: 180px;
+}
+.header{
+    display: flex;
+    margin-top: 100px;
+    height: 70px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 10px 10px 30px rgb(0,0,0,0.1);
+}
+.logo{
+    margin-left: -580px;
+    height: 40px;
+    width: 250px;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    margin: 8px;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: white;
+}
+.button-container{
+    display: flex;
+    
+}
+.button-text{
+    color: black;
+    margin: 3px;
+    font-family:'TripSans-Regular';
+}
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 600px;
+    
+}
+.grid-container{
+    margin-top: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    display: grid;
+}
+.card{
+    margin-right: 10px;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    height: auto;
+    width: auto;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+.card-title{
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    font-family:'TripSans-Regular';
+}
+.banner-1{
+    position: relative;
+    margin-top: 10px;
+    height: 348px;
+
+}
+.banner-1 img{
+    height: 100%;
+    width: 100%;
+}
+.searchbar{
+    box-shadow: 30px 30px 30px rgb(0,0,0,0.1);
+    border-radius: 50px;
+    align-items: center;
+    height: 60px;
+    width:70%;
+    top: 130px;
+    left: 130px;
+    background-color: white;
+    position: absolute;
+}
+.searchbar-arr{
+    align-items: center;
+    height: 100%;
+    display: flex;
+}
+.searchbox{
+
+    height: 60px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    width: fit-content;
+}
+.searchbox::placeholder{
+    font-family: 'TripSans-Regular';
+    font-size: 18px;
+}
+
+.banner-2{ 
+    align-items: center;
+    margin-top: 70px;
+    width: 100%;
+    height: auto;
+    background-color: #f2b203;
+}
+.banner-2-hv{
+    
+    display: flex;
+    width: 100%;
+}
+.img{
+    margin: 30px;
+    height: 401px;
+    width: 600px;
+}
+.img img{
+    height: 100%;
+    width: 600px;
+}
+.text-area{
+
+    align-items: center;
+    margin-top: 100px;
+    width: 80%;
+    height: 100px;
+    
+}
+.one{
+    margin-left: -50px;
+    justify-content: center;
+    height: 50px;
+    width: auto;
+    display: flex;
+}
+.image{
+    height: 24px;
+    height: 24px;
+}
+.image img{
+    height: 24px;
+    width:24px;
+}
+.tle{
+    font-family: 'TripSans-Regular';
+    margin-left: 10px;
+    text-align: center;
+    color: #333;
+    
+}
+.text-area h2{
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: -50px;
+    margin-top: -10px;
+    font-family: 'TripSans-Regular';
+    text-align: center;
+}
+.text-area .des{
+    color: #333;
+    margin-left: 50px;
+    margin-top: -20px;
+    text-align: center;
+    font-family: 'TripSans-Regular';
+    width: 334px;
+}
+.btn-arr{
+    margin-top: 15px;
+    margin-left: 130px;
+    height: 50px;
+    background-color: black;
+    border-radius: 40px;
+    width:150px;
+}
+.btn-arr div{
+    width: 100%;
+    padding-top: 11px;
+    text-align: center;
+    color: white;
+    font-family: 'TripSans-Regular';
+}
+.top-things{
+
+}
+.top-things div{
+
+}
+.top-things-h2{
+    
+    margin-top: 70px;
+    font-family: 'TripSans-Regular';
+}
+.top-things-sub{
+    color: #333;
+    margin-top: -15px;
+    font-family: 'TripSans-Regular';
+}
+.top-things .cards{
+    height: auto;
+    margin-left: -28px;
+    display: flex;
+    
+}
+.top-things .cards .card-1 {
+    width: 300px;
+    height: auto;
+    margin-right: -8px;
+    margin-top: -15px;
+    position: relative;
+    
+    
+}
+.top-things .cards .card-1 .new{
+    font-family: "Trip Sans VF","Trip Sans",Arial,sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    position: absolute;
+    bottom: 40px;
+    left: 50px;
+    color: white;
+
+}
+.top-things .cards .card-1 .img{
+    width: 277px;
+    height: 270px;
+    
+    
+}
+.bestway-cards{
+    margin-top: 15px;
+
+    display: flex;
+}
+.bestway-card-1-arr{
+    width: auto;
+}
+.title{
+    width:277px;
+    font-size: 17px;
+    font-weight:700;
+    font-family: 'TripSans-Regular';
+}
+.sub{
+    font-family: 'TripSans-Regular';
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: -1px;
+}
+.bestway-card-1{
+    height: max-content;
+    margin-right: 15px;
+    position: relative;
+}
+.fav{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left:230px;
+    
+}
+.fav svg{
+    margin-top: 6px;
+    margin-left: 6px;
+}
+.w{
+    width: 277px;
+    height: 270px;
+}
+.w img{
+    height: 100%;
+    width: 100%;
+}
+.more-to-explore{
+ 
+    width: 100%;
+    height: 550px;
+    background-color: #faf1ed;
+}
+.me-container{
+    padding-top: 10px;
+    margin: 180px;
+}
+.me-container p{
+    display: flex;
+    font-family: 'TripSans-Regular';
+    font-size: 22px;
+    font-weight: 700;
+}
+.me-cards{
+    position: relative;
+    margin-right: 15px;
+    width: 400px;
+    height: auto;
+    background-color: white;
+}
+.me-card-1{
+    background-color: white;
+    width: auto;
+    height: auto;
+}
+.me-ha{
+    display: flex;
+}
+.me-card-1 img{
+    height: 230px;
+    width: 370px;
+}
+
+.me-title{
+    margin-top: 15px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'TripSans-Regular';
+    font-size: 18px;
+    font-weight: 700;
+    width: 264px;
+
+}
+.me-fav{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    right:10px;
+    
+}
+.me-fav svg{
+    margin-top: 6px;
+    margin-left: 6px;
+}
+.dream{
+    margin-left: 180px;
+    margin-right: 180px;
+    width: 100%;
+    height: 550px;
+    background-color: white;
+}
+.dream .cards{
+    height: auto;
+    margin-left: -28px;
+    display: flex;
+    
+}
+.dream .cards .card-1 {
+    width: 300px;
+    height: auto;
+    margin-right: -8px;
+    margin-top: -15px;
+    position: relative;
+    
+    
+}
+.dream .cards .card-1 .new{
+    font-family: "Trip Sans VF","Trip Sans",Arial,sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    position: absolute;
+    bottom: 40px;
+    left: 50px;
+    color: white;
+    width: 277px;
+
+}
+.dream .cards .card-1 .img{
+    width: 277px;
+    height: 270px;
+    
+    
+}
+.text-card{
+    margin-top: 20px;
+    width: 300px;
+}
+.text-card div{
+    font-family: 'TripSans-Regular';
+    font-size: 22px;
+    font-weight: 900;
+}
+.hm-cards{
+    margin-left: 180px;
+    display: flex;
+}
+.hm-card-1{
+    margin-left: 15px;
+    width: 270px;
+    height: 200px;
+}
+.hm-card-1 img{
+    width: 100%;
+    height: 100%;
+}
+.hm-card-1 div{
+    font-family: 'TripSans-Regular';
+    font-size: 18px;
+    font-weight: 900;
+}
+.hm-card-1 a{
+    font-family: 'TripSans-Regular';
+    font-size: 16px;
+    font-weight: 800;
+}
+.bestofbest{
+    margin-top: 100px;
+    height: auto;
+    background-color:  #fff7e1;
+}
+.bb-ha{
+    margin-left: 180px;
+    display: flex;
+    width: 100%;
+}
+.bb-1{
+    margin-left: 30px;
+    margin-top: 150px;
+    align-items: start;
+    width: 500px;
+}
+.bb-1 h2{
+    margin-top: -5px;
+    font-family: 'TripSans-Regular';
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 50px;
+}
+.bb-1 p{
+    margin-top: -28px;
+    font-family: 'TripSans-Regular';
+    font-size: 24px;
+    font-weight: 500;
+
+}
+.bb-2{
+    width: 600px;
+    height: 600px;
+}
+.bb-2 img{
+    height: 100%;
+    width: 100%;
+}
+.seewinners{
+    text-align: center;
+    border-radius: 30px;
+    background-color: black;
+    height: 40px;
+    width: 180px;
+}
+.wnr-btn-txt{
+    font-family: 'TripSans-Regular';
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 10px;
+    color: white;
+}
+.footer{
+    
+    margin-top: 50px;
+    background-color:  #fff7e1;
+    height: 400px;
+}
+.blank{
+    width: 100%;
+    height: 20px;
+}
+.foot-grid{
+    margin-left: 180px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 3fr;
+    grid-template-rows: auto; 
+}
+.section-1-title{
+    font-size: 16px;
+    font-weight: 200;
+    font-family: 'TripSans-Regular';
+    margin-left: 40px;
+}
+.section-1 ul{
+    margin-top: 1px;
+    list-style-type: none;
+}
+.section-1 li{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'TripSans-Regular';
+    margin-top: 5px;
+}
+.section-1-title-2{
+    font-size: 14px;
+    font-weight: 200;
+    font-family: 'TripSans-Regular';
+    margin-left: 40px;
+    margin-top: 5px;
+}
+.footer-menu{
+    margin-left: 220px;
+    
+}
+.menu-sec-1{
+    display: flex;
+}
+.menu-sec-1 img{
+    width: 40px;
+    height: 40px;
+}
+.menu-sec-1-2{
+    width: 600px;
+    display: inline;
+
+}
+.menu-sec-1-2 a{
+    margin-left: 10px;
+    width: 60%;
+    font-size: 12px;
+    font-weight: 200;
+    font-family: 'TripSans-Regular';
+}
+.menu-sec-1-2 .list{
+    width: 100%;
+    display: block;
+
+}
+.menu-sec-1-2 .list a{
+    color: inherit;
+    text-decoration: none;
+    width: max-content;
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.menu-sec-2 p{
+    width: 50%;
+    font-size: 12px;
+    font-weight: 200;
+    font-family: 'TripSans-Regular';
+}
+.charming{
+    width: 100%;
+    background-color: white;
+}
+.top-desinations-h2{
+    
+    margin-top: -100px;
+    font-family: 'TripSans-Regular';
+}
+.top-desinations-sub{
+    color: #333;
+    margin-top: -15px;
+    font-family: 'TripSans-Regular';
+}
+.rentals{
+    margin-top: -145px;
+}
+.rentals h2{
+    margin-left: 180px;
+}
+
+.buttons{
+    display: grid;
+    row-gap: 10px;
+    grid-template-columns: repeat(2,auto);
+}
+
+.btn-1{
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(200, 197, 197);
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: auto;
+}
+.icons{
+    display: flex;
+    align-content: end;
+    justify-content: end;
+    min-height: 30px;
+    
+}
+.icons svg{
+    margin-left: 15px;
+}
